@@ -1,0 +1,30 @@
+# LaTeX build artifacts
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex.gz
+*.out
+*.toc
+
+# Archives (regenerate from source instead of tracking; Dataset/*.zip are tracked via Git LFS)
+*.zip
+
+# Extracted dataset (regenerate by unzipping Dataset/DBI.zip and Dataset/SDD.zip)
+Dataset/Original/
+Dataset/Ver1/
+
+# Local Python environment
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
